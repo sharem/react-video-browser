@@ -1,7 +1,7 @@
 {
-  "name": "redux-video-app",
+  "name": "react-video-browser",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small video-browser application made with React for educational purposes",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
