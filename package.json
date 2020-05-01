@@ -4,7 +4,9 @@
   "description": "A small video-browser application made with React for educational purposes",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "Iraide Diaz Orueta",
@@ -24,6 +26,8 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-router": "^2.8.1",
-    "youtube-api-search": "0.0.5"
-  }
+    "youtube-api-search": "0.0.5",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
